@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { KhimProfileComponent } from './khim-profile/khim-profile.component';
 import { BehzadProfileComponent } from './behzad-profile/behzad-profile.component';
 import { ShreyaProfileComponent } from './shreya-profile/shreya-profile.component';
+import { RoonjhunProfileComponent } from './roonjhun-profile/roonjhun-profile.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ShreyaProfileComponent } from './shreya-profile/shreya-profile.componen
     PageNotFoundComponent,
     KhimProfileComponent,
     BehzadProfileComponent,
-    ShreyaProfileComponent
+    ShreyaProfileComponent,
+    RoonjhunProfileComponent
   ],
   imports: [
     BrowserModule,
